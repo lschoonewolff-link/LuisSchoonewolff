@@ -1,0 +1,257 @@
+body{
+    background-color: #030303;
+}
+#principal{
+    width: 1000px;
+    margin: auto;
+    background-color: #030303;
+}
+
+#cabecera{
+    width: 1000px;
+    height: 50px;
+    background: #33CAFF;
+}
+
+#cabecera ul{
+    text-align: center;
+    padding-top: 15px;
+}
+
+#cabecera li{
+    display: inline;
+    margin-right: 30px;
+    margin-bottom: top;
+
+}
+
+#cabecera a{
+    color: #ffff;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+section{
+    position: static;
+    display: inline-block;
+    margin-top: 50px;
+    width: 250px;
+    height: 500px;
+}
+
+
+#imagen{
+    text-align: center;
+    width: 250px;
+    height: 500px;
+    background: #030303;
+    float: left;
+}
+
+.nombre{
+    position: absolute;
+    top: 70px;
+    left: 500px;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    color: aliceblue;
+    float: center;
+}
+
+.foto{
+    position: relative;
+    top: 70px;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin-left: 10px;
+    margin-right: auto;
+    margin: 30px;
+    border-radius: 150px;
+    margin-inline: 50px;
+}
+
+.Aboutme{
+    position: absolute;
+    top: 100px;
+    left: 760px;
+    width: 750px;
+    height: 545px;
+    margin-top: 10px;
+    /*margin-top: 10px;
+    margin-left: 500px;*/
+    /*margin-right: 500px;*/
+    margin: 3px auto;
+    
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 1rem;
+    color: aliceblue;
+
+    animation: teclear 3s steps(16), efecto.5s step-end infinite alternate;
+    
+}
+
+@keyframes teclear {
+    from{
+        clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+    }
+    to{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+}
+
+@keyframes efecto {
+    25%{
+        border-color: transparent;
+        color: rgb(2, 40, 252);
+    }
+}
+
+.Aboutme h1{
+    text-align: center;
+}
+.Aboutme p {
+    text-align: justify;
+}
+
+.burbuja {
+    position: absolute;
+    top: 1px;
+    left: 0;
+    width: 600px;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #ffff;
+    padding: 12px;
+    color: #222;
+    border-radius: 50px;
+   
+}
+
+.burbuja:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 150px;
+    margin-left: -25px;
+    width: 1px;
+    height: 1px;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    
+    border-right: 15px solid #ffff
+    
+    
+}
+
+
+.parallax{
+    clear: both;
+    width: 100%;
+    height: 250px;
+    background:url(../img/fondo.jpg) fixed no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+/*.projects h2, .servicios h4{
+    text-align: center;
+
+}*/
+
+/*.servicio{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px ;
+    background: #F3F151;
+    float: left;
+    margin: 50px;
+}*/
+
+.projectsSection{
+    width: 100%;
+}
+
+.projects{
+    text-align: center;
+    font-size: 50px;
+    font-style: normal;
+    color: aliceblue;
+    float: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.projectsh2{
+    text-align: center;
+    font-size: 50px;
+    font-style: normal;
+    color: aliceblue;
+    float: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+#pie{
+    width: 1000px;
+    clear:both;
+    border-top: 1px solid #ccc;
+}
+.acerca{
+    width: 250px;
+    float: left;
+    margin-right: 100px;
+    color: aliceblue;
+    
+}
+
+.logo-padre{
+    width: 200px;
+    height: 200px;
+    margin-right: 100px;
+    color: aliceblue;
+    margin-block-end: auto;
+    float: center;
+    display: block;
+    
+}
+
+.logo{
+    border-radius: 150px;
+    width: 100px;
+    height: 100px;
+    float: center;
+    margin-inline: 50px;
+}
+
+.menu{
+    width: 220px;
+    float: left;
+    margin-right: 100px;
+    color: aliceblue;
+}
+
+.enlaces a{
+    color: aliceblue;
+}
+
+.socialMedia{
+    width: 300px;
+    float: left;
+    color: aliceblue;
+}
+
+.social{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: #11CEF0;
+    float: left;
+    margin-left: 20px;
+}
